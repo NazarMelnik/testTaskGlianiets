@@ -1,0 +1,82 @@
+.title-section {
+  position: relative;
+  padding-top: 200px;
+  min-height: 100vh;
+  background-image: url("/img/header/headerImg.png"), url("/img/header/1.png"),
+    url("/img/header/centerBackgroundHeader.png"),
+    url("/img/header/leftBackgroundHeader.png");
+  background-position: right, right, center, left;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+.title-section-text {
+  text-align: left;
+}
+
+.title-section__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border-radius: 20px;
+  padding: 10px;
+  gap: 15px;
+}
+.title-section-btn {
+  justify-self: center;
+  margin-right: auto;
+  background-color: #ffff00;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  border-radius: 10px;
+  padding: 20px 50px;
+}
+.title-section-btn:hover {
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+  background-color: #ffd700;
+  transition: 0.5s;
+}
+.title-more {
+  margin-top: auto;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17.5px;
+  font-weight: 700;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.title-more a {
+  color: #333333;
+}
+.title-more::after {
+  content: "";
+  background-image: url("/img/header/Arrow.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+@media (max-width: 1680px) {
+  .title-section {
+    padding-top: 150px;
+    background-position: right 100px;
+  }
+}
+@media (max-width: 993px) {
+  .section-small--text {
+    font-size: 18px;
+  }
+  .title-section-text__wrapper {
+    width: 100%;
+  }
+  .title-section__wrapper {
+    background: rgba(255, 255, 255, 0.8);
+  }
+}
