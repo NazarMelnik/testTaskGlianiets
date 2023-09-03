@@ -8,7 +8,6 @@
   background-size: cover cover;
 }
 .charity__wrapper {
-  padding-top: 50px;
   text-align: left;
   display: flex;
   justify-content: flex-start;
@@ -17,12 +16,14 @@
 }
 .charity__wrapper img {
   object-fit: cover;
+  z-index: -1;
 }
 .charity-text-content {
   display: flex;
   flex-direction: column;
   color: #333333;
   width: 50%;
+  gap: 15px;
 }
 
 .charity-cards {
@@ -49,7 +50,6 @@
 }
 .charity-card-title {
   font-size: 26px;
-  font-weight: 700;
   line-height: 125%;
 }
 .charity-card-subtitle {

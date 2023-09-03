@@ -42,13 +42,15 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  gap: 20px;
 }
 .intro-item:hover {
   transform: scale(1.1);
   transition: 0.3s ease;
-  transform: rotateX(360deg);
 }
-
+.intro-item:hover {
+  transform: rotate(360deg);
+}
 .intro-item {
   display: flex;
   align-items: center;
@@ -71,7 +73,7 @@
   right: 70px;
 }
 .intro-item img {
-  background-color: #ffdf00;
+  background-color: #ffd74c;
   padding: 10px;
   min-width: 80px;
   min-height: 80px;
@@ -80,6 +82,7 @@
 .right--items {
   display: flex;
   justify-content: flex-start;
+  gap: 20px;
   align-items: flex-start;
 }
 .left--items li:nth-of-type(2),
@@ -103,9 +106,6 @@
   }
   .intro-right-img {
     display: none;
-  }
-  .intro-items {
-    gap: 20px;
   }
   .intro-items__wrapper {
     align-items: center;

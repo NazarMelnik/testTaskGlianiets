@@ -1,11 +1,11 @@
 .title-section {
-  position: relative;
   padding-top: 150px;
+  position: relative;
   min-height: 100vh;
   background-image: url("../img/header/headerImg.png"),
     url("../img/header/1.png"), url("../img/header/centerBackgroundHeader.png"),
     url("../img/header/leftBackgroundHeader.png");
-  background-position: right, right, center, left;
+  background-position: right top, right top, bottom center, left;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 }
 .title-section-text {
@@ -21,6 +21,7 @@
   grid-template-columns: repeat(1, 1fr);
   border-radius: 20px;
   padding: 10px;
+  max-width: 50%;
   gap: 15px;
 }
 .title-section-btn {
@@ -68,10 +69,6 @@
   height: 25px;
 }
 @media (max-width: 1680px) {
-  .title-section {
-    padding-top: 150px;
-    background-position: right 100px;
-  }
   .title-section-title {
     font-size: 74px;
     line-height: 110%;
@@ -79,11 +76,15 @@
   }
 }
 @media (max-width: 993px) {
+  .title-section {
+    padding-top: 50px;
+  }
   .title-section-text__wrapper {
     width: 100%;
   }
   .title-section__wrapper {
     background: rgba(255, 255, 255, 0.8);
+    max-width: 100%;
   }
   .title-section-btn {
     font-size: 16px;
