@@ -1,6 +1,6 @@
 .title-section {
   position: relative;
-  padding-top: 200px;
+  padding-top: 150px;
   min-height: 100vh;
   background-image: url("../img/header/headerImg.png"),
     url("../img/header/1.png"), url("../img/header/centerBackgroundHeader.png"),
@@ -11,7 +11,11 @@
 .title-section-text {
   text-align: left;
 }
-
+.title-section-title {
+  font-size: 90px;
+  line-height: 110%;
+  font-weight: 900;
+}
 .title-section__wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -68,15 +72,28 @@
     padding-top: 150px;
     background-position: right 100px;
   }
+  .title-section-title {
+    font-size: 74px;
+    line-height: 110%;
+    font-weight: 800;
+  }
 }
 @media (max-width: 993px) {
-  .section-small--text {
-    font-size: 18px;
-  }
   .title-section-text__wrapper {
     width: 100%;
   }
   .title-section__wrapper {
     background: rgba(255, 255, 255, 0.8);
+  }
+  .title-section-btn {
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 20px;
+  }
+  .title-section-title {
+    font-size: 32px;
+    line-height: 110%;
+    font-weight: 800;
   }
 }
