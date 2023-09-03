@@ -2,7 +2,7 @@
   padding: 100px 0;
 }
 .charity-container {
-  background-image: url("/img/charity/3.png"), url("/img/charity/1.png");
+  background-image: url("./img/charity/3.png"), url("./img/charity/1.png");
   background-repeat: no-repeat no-repeat;
   background-position: bottom right, top right;
   background-size: cover cover;
@@ -59,7 +59,7 @@
 
 @media (max-width: 1240px) {
   .charity-container {
-    background-image: url("/img/charity/3.png");
+    background-image: url("./img/charity/3.png");
     background-position: top right;
   }
 

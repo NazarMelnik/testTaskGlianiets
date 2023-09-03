@@ -17,7 +17,7 @@
   color: #333333;
 }
 .footer-right-side {
-  background: url("/img/footer/back.png");
+  background: url("./img/footer/back.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

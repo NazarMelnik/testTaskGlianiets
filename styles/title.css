@@ -2,9 +2,9 @@
   position: relative;
   padding-top: 200px;
   min-height: 100vh;
-  background-image: url("/img/header/headerImg.png"), url("/img/header/1.png"),
-    url("/img/header/centerBackgroundHeader.png"),
-    url("/img/header/leftBackgroundHeader.png");
+  background-image: url("./img/header/headerImg.png"), url("./img/header/1.png"),
+    url("./img/header/centerBackgroundHeader.png"),
+    url("./img/header/leftBackgroundHeader.png");
   background-position: right, right, center, left;
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
 }
@@ -57,7 +57,7 @@
 }
 .title-more::after {
   content: "";
-  background-image: url("/img/header/Arrow.png");
+  background-image: url("./img/header/Arrow.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 25px;
