@@ -1,0 +1,77 @@
+@import url("./header.css");
+@import url("./title.css");
+@import url("./test-task.css");
+@import url("./about-section.css");
+@import url("./intro-section.css");
+@import url("./slider.css");
+@import url("./drupal.css");
+@import url("./sponsor.css");
+@import url("./charity.css");
+@import url("./burger.css");
+@import url("./footer.css");
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("./font/ProximaNova.otf") format("otf");
+}
+@font-face {
+  font-family: "ProximaNova";
+  src: url("./font/ProximaNova.otf") format("otf");
+}
+html {
+  padding-top: 85px;
+  scroll-behavior: smooth;
+  scroll-padding: 110px;
+}
+body {
+  font-family: "ProximaNova", sans-serif;
+}
+
+.section-small-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+}
+.section-title {
+  font-size: 44px;
+  line-height: 55px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+.container {
+  padding: 15px;
+  max-width: 1820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1850px) {
+  .container {
+    max-width: 1640px;
+  }
+}
+@media (max-width: 1680px) {
+  .container {
+    max-width: 1280px;
+  }
+  .section-title {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1110px;
+  }
+  .section-title {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 993px) {
+  .section-title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+}

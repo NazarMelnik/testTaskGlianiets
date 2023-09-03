@@ -1,0 +1,137 @@
+.intro-section {
+  padding: 50px 0;
+}
+
+.intro-item-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #333333;
+}
+.intro-item-definition {
+  font-size: 16px;
+  line-height: 20px;
+}
+.intro-items {
+  margin-top: 50px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+
+@media (max-width: 1700px) {
+  .intro-items {
+    width: 550px;
+    gap: 5px;
+  }
+  .intro-item {
+    width: 320px;
+  }
+}
+
+.intro-items__wrapper {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+}
+.left--items {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.intro-item:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+  transform: rotateX(360deg);
+}
+
+.intro-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.intro-text__wrapper {
+  max-width: 500px;
+}
+.intro-img-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-left-img {
+  position: relative;
+  left: 70px;
+}
+.intro-right-img {
+  position: relative;
+  right: 70px;
+}
+.intro-item img {
+  background-color: #ffdf00;
+  padding: 10px;
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 40px;
+}
+.right--items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.left--items li:nth-of-type(2),
+.left--items li:nth-of-type(4),
+.right--items li:nth-of-type(2),
+.right--items li:nth-of-type(4) {
+  align-self: center;
+}
+.right--items li:nth-of-type(3) {
+  align-self: flex-end;
+}
+.left--items li:nth-of-type(3) {
+  align-self: flex-start;
+}
+@media (max-width: 1110px) {
+  .intro-center-img {
+    display: none;
+  }
+  .intro-left-img {
+    display: none;
+  }
+  .intro-right-img {
+    display: none;
+  }
+  .intro-items {
+    gap: 20px;
+  }
+  .intro-items__wrapper {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left--items {
+    align-items: center;
+    justify-content: center;
+  }
+  .right--items {
+    align-items: center;
+    justify-content: center;
+  }
+  .right--items li:nth-of-type(3) {
+    align-self: center;
+  }
+  .left--items li:nth-of-type(3) {
+    align-self: center;
+  }
+  .intro-item {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .intro-item {
+    width: 300px;
+  }
+}
