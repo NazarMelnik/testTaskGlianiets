@@ -6,7 +6,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 25px;
-  color: #333333;
+  color: var(--main-color);
 }
 .intro-item-definition {
   font-size: 16px;
@@ -73,7 +73,7 @@
   right: 70px;
 }
 .intro-item img {
-  background-color: #ffd74c;
+  background-color: var(--primary-color);
   padding: 10px;
   min-width: 80px;
   min-height: 80px;
@@ -131,7 +131,7 @@
   }
 }
 @media (max-width: 700px) {
-  .intro-item {
-    width: 300px;
+  .intro-items {
+    width: 100%;
   }
 }

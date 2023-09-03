@@ -38,6 +38,7 @@
   box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
   cursor: pointer;
   padding: 40px;
+  border-radius: 15px;
   height: 147px;
 }
 .sponsor-item img {

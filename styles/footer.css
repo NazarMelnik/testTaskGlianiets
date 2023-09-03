@@ -6,7 +6,7 @@
   display: flex;
   width: 35%;
   flex-direction: column;
-  background-color: #ffd00e;
+  background-color: var(--primary-color);
   gap: 30px;
   padding: 50px 75px;
 }
@@ -14,7 +14,7 @@
 .footer-copyright {
   font-size: 16px;
   line-height: 20px;
-  color: #333333;
+  color: var(--main-color);
 }
 .footer-right-side {
   background: url("../img/footer/back.png");
@@ -41,7 +41,7 @@
   line-height: 30px;
 }
 .footer-text__wrapper a:hover {
-  color: #ffd00e;
+  color: var(--primary-color);
 }
 .footer-social__wrapper {
   display: flex;
@@ -56,7 +56,7 @@
   .footer-right-side {
     padding: 10px;
     grid-template-columns: repeat(1, 1fr);
-    text-align: center;
+    text-align-last: left;
     gap: 35px;
   }
   .footer-left-side {
